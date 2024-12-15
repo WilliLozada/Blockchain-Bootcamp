@@ -8,37 +8,26 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <script src="js/scripts.js"></script>
   </head>
+  <header class="header">
+    <nav class="main-menu">
+      <ul class="main-menu-list">
+        <li>
+          <a href="#"
+            ><img
+              src="assets/icons/blockchain.png"
+              alt="blockchain"
+              class="blockchain-icon"
+          /></a>
+        </li>
+        <li><a href="#">Módulo 1</a></li>
+        <li><a href="#">Módulo 2</a></li>
+        <li><a href="#">Módulo 3</a></li>
+      </ul>
+    </nav>
+  </header>
   <body>
     <div id="main-content">
-      <header id="header">
-        <div class="header-image">
-          <img
-            id="blockchain-icon"
-            src="assets/icons/blockchain.png"
-            alt="icon_blockchain"
-          />
-        </div>
-        <div class="header-title">
-          <h1>Bootcamp Blockchain</h1>
-        </div>
-      </header>
-
-      <nav id="main-menu">
-        <ul>
-          <a href="#" class="nav-link">Módulo 1</a>
-          <a href="#" class="nav-link">Módulo 2</a>
-          <a href="#" class="nav-link">Módulo 3</a>
-        </ul>
-      </nav>
-
-      <selection id="section">
-        <div id="promo-banner">
-          <div id="promo-background">
-            <button id="promo-close-button">x</button>
-            <img id="promo-img" src="img/banner.jpeg" alt="banner" />
-            <p>¡No te pierdas nuestras ofertas especiales!</p>
-          </div>
-        </div>
+      <section id="section">
         <article>
           <h2>Introducción a la tecnología blockchain</h2>
           <p class="text">
@@ -107,7 +96,7 @@
             <small>Principios básicos y terminología clave</small>
           </footer>
         </article>
-      </selection>
+      </section>
 
       <aside id="side-panel">
         <form name="form">
@@ -139,11 +128,19 @@
           </table>
         </form>
       </aside>
-      <footer id="footer">
-        <h3 id="info">William Alexander Lozada Portilla</h3>
-        <h3 id="info">Ingeniero Electrónico</h3>
-        <h3 id="info">Backend software engineer</h3>
-      </footer>
     </div>
   </body>
+  <footer id="footer">
+    <h3 id="info">William Alexander Lozada Portilla</h3>
+    <h3 id="info">Ingeniero Electrónico</h3>
+    <h3 id="info">Backend software engineer</h3>
+    <p>&copy; 2024</p>
+  </footer>
+  <div id="promo-banner">
+    <div id="promo-background">
+      <button id="promo-close-button">x</button>
+      <img id="promo-img" src="img/banner.jpeg" alt="banner" />
+      <p>¡No te pierdas nuestras ofertas especiales!</p>
+    </div>
+  </div>
 </html>

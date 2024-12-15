@@ -1,14 +1,69 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
-  text-align: center;
-  background: linear-gradient(to bottom, #e0f7fa, #a0d8d4);
-  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f7;
+  padding-top: 40px;
+}
+
+.blockchain-icon {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+
+  clip-path: circle(50%);
+  transition: 2s;
+}
+
+.blockchain-icon:hover {
+  clip-path: circle(65%);
+  scale: 1.8;
+}
+
+.header {
+  background-color: #333333;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.main-menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-menu-list li {
+  display: inline;
+}
+
+.main-menu-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.main-menu-list a:hover {
+  background-color: #444444;
+  transform: scale(1.05);
+  border-radius: 10px;
 }
 
 #main-content {
@@ -17,46 +72,6 @@ body {
   text-align: left;
 
   background-image: url("../img/background.jpeg");
-}
-
-#header {
-  height: 200px;
-  background: linear-gradient(to bottom, #4285f4, #5c8eff);
-  border: 1px solid #0077cc;
-  padding: 20px;
-  text-align: center;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.header-image {
-  width: 150px;
-  height: 150px;
-  margin: 10px;
-}
-
-#blockchain-icon {
-  clip-path: circle(50%);
-  width: 150px;
-  transition: 2.5s;
-}
-
-#blockchain-icon:hover {
-  clip-path: circle(65%);
-  scale: 1.1;
-}
-
-h1 {
-  font: bold;
-  font-size: 20px;
-}
-
-#main-menu {
-  background: linear-gradient(to bottom, #4285f4, #357ae8);
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
