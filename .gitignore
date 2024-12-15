@@ -1,0 +1,18 @@
+# Ignorar archivos temporales de sistema
+.DS_Store
+
+# Ignorar archivos de compilación
+*.class
+*.log
+
+# Ignorar directorios
+/node_modules/
+/build/
+/dist/
+
+/.idea/  # Configuración de IntelliJ/PhpStorm
+.vscode/  # Configuración de Visual Studio Code
+
+# Archivos sensibles
+.env
+*.key
